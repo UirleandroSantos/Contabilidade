@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+/*
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+@media screen and (max-width: 480px){
+    .limita-largura{
+        /* background-color: red; */
+        width: 90vw;
+        margin: auto;
+        padding: 10px 0;
+        position: relative;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-marca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+    } .logo-marca h2{
+        font-family: 'Ubuntu', sans-serif;
+    } .logo-marca h3{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .links{
+        display: none;
+        padding: 20px;
+    }
+    .links a{
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        color: black;
+        cursor: pointer;
+    }
+    fieldset{
+        border: none;
+    }
+    .formulario{
+        /* background-color: red; */
+        width: 90%;
+        margin: 100px auto 0 auto;
+        position: relative;
+    }
+    .formulario h1{
+        text-align: center;
+    }
+    .caixa-entrada{
+        /* background-color: aqua; */
+        width: 100%;
+        position: relative;
+        margin-top: 30px;
+    }
+    input{
+        position: relative;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid rgb(200, 200, 200);
+        outline: none;
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-family: 'Roboto', sans-serif;
+    }
+    label{
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        color: rgb(150, 150, 150);
+        cursor: text;
+        transition: 0.5s;
+    }
+}input:focus, input:valid{
+    border-bottom: 2px solid cornflowerblue;
+    transition: 0.5 ease-in-out;
+}
+
+input:focus ~ label, input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: cornflowerblue;
+    transition: 0.5;
+}
+
+button{
+    padding: 20px 30px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 0px black;
+} button:active{
+    box-shadow: none;
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}

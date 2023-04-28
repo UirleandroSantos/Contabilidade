@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <section>
+        <div class="limita-largura">
+            <header class="cabecalho">
+                <a href="./index.html">
+                    <div class="logo-marca">
+                        <h2>Fórmula <h3>Contábil</h3></h2>
+                    </div>
+                </a>
+                <nav id="links" class="links">
+                    <a href="#">SOBRE NÓS</a>
+                    <a href="./formulario.html">FALE CONOSCO</a>
+                    <a href="#">ABRIR UMA EMPRESA</a>
+                    <a href="#">TROCAR DE CONTADOR</a>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <div class="imagem-fundo">
+            </div>
+            <div class="formulario">
+                <form action="">
+                    <fieldset id="formulario">
+                        <h1>Fale conosco:</h1>
+                        <div class="caixa-entrada">
+                            <input type="text" id="nomecompleto" required>
+                            <label for="nomecompleto">Nome Completo:</label>
+                        </div>
+                        <div class="caixa-entrada">
+                            <input type="email" id="email" required>
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div class="caixa-entrada">
+                            <input type="tel" id="telefone" required>
+                            <label for="telefone">Telefone:</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="btn">
+                <button id="botao">Contate-nos</button>
+            </div>
+        </main>
+    </section>
+    <script src="scriptformulario.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
