@@ -9,7 +9,7 @@ botaoMenu.addEventListener('click', function(){
         links.classList.add('mostrar')
         links.classList.remove('ocultar')
         corpo.style.opacity = '0.5';
-        corpo.style.margin = '150px 0px';
+        corpo.style.margin = '200px 0px';
     }
     else {
         links.classList.add('ocultar');

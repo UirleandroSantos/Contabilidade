@@ -9,4 +9,4 @@ botao.addEventListener('click', function(evt){evt.preventDefault()
     }else{
         window.location.href = 'cadastrado.html'
     }
-})
+});
